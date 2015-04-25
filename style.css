@@ -1,5 +1,5 @@
 body{
-    background-image: url("assets/imgs/Photos/background/1.jpg");
+    background-image: url("assets/imgs/photos/background/3.jpg");
     background-repeat: no-repeat;
     background-position: center; 
     background-color: #000;
@@ -11,8 +11,7 @@ body{
 }
 
 #carousel-home{
-    max-width:600px;
-    
+    max-width:600px;  
 }
 
 .navbar{
