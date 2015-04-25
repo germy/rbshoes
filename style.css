@@ -1,0 +1,18 @@
+.logo{
+    max-height:100px;
+}
+
+#carousel-home{
+    max-width:600px;
+}
+
+.navbar{
+    margin:40px 0px 0px 0px;
+}
+
+.main{
+    margin:20px auto 20px auto;
+    -webkit-box-shadow: 7px 7px 11px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 11px -1px rgba(0,0,0,0.75);
+    box-shadow: 7px 7px 11px -1px rgba(0,0,0,0.75);
+}
