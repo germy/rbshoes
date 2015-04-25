@@ -24,8 +24,12 @@ body{
 
 }
 
-.cart, .lang{
+.cart-logo, .lang{
     margin: 9px 20px 0px 10px;
+}
+.product-img{
+    max-height:100px;
+    width:100%;
 }
 
 #main{
@@ -45,4 +49,8 @@ body{
 
 #main .box{
     margin:20px 0px 0px 0px;
+}
+
+#cart-overlay{
+    max-width:800px;
 }
