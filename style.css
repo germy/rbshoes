@@ -1,18 +1,27 @@
 body{
-    background-color: #D9AF32;
+    background-image: url("assets/imgs/Photos/background/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #000;
 }
 
 .logo{
     max-height:100px;
+    max-width:100%;
 }
 
 #carousel-home{
     max-width:600px;
+    
 }
 
 .navbar{
-    margin:40px 0px 0px 0px;
+    margin:30px 0px 0px 0px;
 
+}
+
+.cart{
+    margin: 15px 20px 0px 10px;
 }
 
 .main{
@@ -20,5 +29,5 @@ body{
     -webkit-box-shadow: 7px 7px 11px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 7px 7px 11px -1px rgba(0,0,0,0.75);
     box-shadow: 7px 7px 11px -1px rgba(0,0,0,0.75);
-    background-color:#FFF;
+background-color: rgba(255,255,255, 0.65);
 }
