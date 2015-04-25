@@ -54,3 +54,7 @@ body{
 #cart-overlay{
     max-width:800px;
 }
+
+#map{
+    display:none;
+}
