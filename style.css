@@ -1,3 +1,7 @@
+body{
+    background-color: #D9AF32;
+}
+
 .logo{
     max-height:100px;
 }
@@ -8,6 +12,7 @@
 
 .navbar{
     margin:40px 0px 0px 0px;
+
 }
 
 .main{
@@ -15,4 +20,5 @@
     -webkit-box-shadow: 7px 7px 11px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 7px 7px 11px -1px rgba(0,0,0,0.75);
     box-shadow: 7px 7px 11px -1px rgba(0,0,0,0.75);
+    background-color:#FFF;
 }
