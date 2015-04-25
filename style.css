@@ -1,3 +1,7 @@
 .logo{
-    max-height:100px;
+    max-height:50px;
+}
+
+#carousel-home{
+    max-width:600px;
 }
