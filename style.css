@@ -21,7 +21,6 @@ body{
 
 .navbar{
     margin:30px 0px 0px 0px;
-
 }
 
 .cart-logo, .lang{
@@ -60,5 +59,13 @@ body{
 }
 
 .checkout-promo{
+    margin:20px 0px 0px 0px;
+}
+
+.filter{
+    background-color:#fff;
+}
+
+.filter-button{
     margin:20px 0px 0px 0px;
 }
