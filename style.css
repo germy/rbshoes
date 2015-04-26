@@ -7,6 +7,7 @@ body{
     background-repeat: no-repeat;
     background-position: center; 
     background-color: #000;
+	font-family: "Avenir Light", Avenir Light, Avenir, Avenir Next, Calibri, sans-serif;
     height:100%;
     overflow:auto;
 }
