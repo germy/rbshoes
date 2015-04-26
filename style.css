@@ -29,7 +29,7 @@ body{
 }
 .product-img{
     max-height:100px;
-    width:100%;
+    max-width:100%;
 }
 
 #main{
@@ -38,7 +38,7 @@ body{
     -webkit-box-shadow: 7px 7px 11px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 7px 7px 11px -1px rgba(0,0,0,0.75);
     box-shadow: 7px 7px 11px -1px rgba(0,0,0,0.75);
-    background-color: rgba(255,255,255, 0.65);
+    background-color: rgba(255,255,255, 0.70);
 }
 
 #splash{
@@ -57,4 +57,8 @@ body{
 
 #map{
     display:none;
+}
+
+.checkout-promo{
+    margin:20px 0px 0px 0px;
 }
