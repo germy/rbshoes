@@ -89,3 +89,42 @@ body{
 .shop-overlay-padding{
     margin-top:40px;
 }
+
+.mirela-img{
+	width: 200px;
+}
+
+#bottom {
+	clear: both;
+	text-align: center;
+	font-variant: small-caps;
+	color: #333333;
+	padding: .5em;
+	font-size: .90em;
+}
+
+#bottom img {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+#bottom a{
+	color: #000000;
+	text-decoration: none;
+}
+
+#bottom a:first-of-type:hover{
+	text-decoration: none;
+	color: #53a687;
+}
+
+footer {
+	font-family: "Avenir Light", Avenir Light, Avenir, Avenir Next, Calibri, sans-serif;
+	clear: both; 
+	padding: .5em;
+	color: #333333;
+	font-variant: small-caps; 
+	font-size: .813em;
+	text-align: center;
+	border-top: 1px dotted #cccccc;
+}
