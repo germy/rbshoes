@@ -37,9 +37,9 @@
     </div>
     <div class="row">
         <div class="col-xs-12">
-            <h1 class="lang-text center-block"></h1>
+            <h1 id="lang-text" class="text-center"></h1>
         </div>
-    </div>
+    </div>  
 </div>    
 <div style="display:none">
     <div id = "map" class="container-fluid">
@@ -186,6 +186,21 @@
         </div>         
     </div>
 </div>
+<div style="display:none">
+    <div id="opinci-overlay" class="container shop-overlay">
+        <div class="row">
+            <div class="col-xs-8 col-xs-offset-2 thumbnail">
+                <img class="shop-img" src="assets/imgs/photos/shop/shop1.jpg" alt="Shoe">
+                <div class="caption">
+                    <h3>Opinci Shoe</h3>
+                    <p>A comfortable not smelly shoe that is perfect for any occasion.</p>
+                    <p>Price $45.99</p>
+                    <button class="btn btn-default">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
 <div id="main" class="container">
     <div class="row">
         <div class="col-md-2 pull-left col-xs-4"><a href="http://germy.github.io/rbshoes"><img class="logo pull-right" src="assets/imgs/logos/Logo4.png" alt="Rae Burket Shoes"></a></div>
@@ -651,13 +666,15 @@
 </div>    
  <div class="row box">
         <div class="col-sm-3 pull-left">
-            <div class="thumbnail">
-                <img src="assets/imgs/photos/shop/shop1.jpg" alt="Shoe">
-                <div class="caption">
-					<h4>Opinci Blue</h4>
-                    <h5>$45.99</h5>
+            <a href="#opinci-overlay" id="opinci-button">
+                <div class="thumbnail">
+                    <img src="assets/imgs/photos/shop/shop1.jpg" alt="Shoe">
+                    <div class="caption">
+                        <h4>Opinci Blue</h4>
+                        <h5>$45.99</h5>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-sm-3 pull-left">
             <div class="thumbnail">

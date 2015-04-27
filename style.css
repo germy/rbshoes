@@ -58,7 +58,7 @@ body{
     margin:20px 0px 0px 0px;
 }
 
-#cart-overlay{
+#cart-overlay, .shop-overlay{
     max-width:800px;
 }
 
