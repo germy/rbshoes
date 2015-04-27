@@ -25,12 +25,20 @@
         $("#lang").text("Choose Language: " + getCookie("lang"));
  	});
     
+    $( "#english" ).mouseover(function() {
+        $("#lang-text").text("English");
+    });
+    
  	$('#spanish').click(function(){
  		$('#splash').hide();
  		$('#main').show();
         document.cookie="lang=spanish; expires=Thu, 18 Dec 3000 12:00:00 UTC";
         $("#lang").text("Choose Language: " + getCookie("lang"));
  	});
+    
+    $( "#spanish" ).mouseover(function() {
+        $("#lang-text").text("Spanish");
+    });    
 
     $('#french').click(function(){
  		$('#splash').hide();
@@ -39,12 +47,20 @@
         $("#lang").text("Choose Language: " + getCookie("lang"));
  	});
     
+    $( "#french" ).mouseover(function() {
+        $("#lang-text").text("French");
+    });     
+    
     $('#chinese').click(function(){
  		$('#splash').hide();
  		$('#main').show();
         document.cookie="lang=chinese; expires=Thu, 18 Dec 3000 12:00:00 UTC";
         $("#lang").text("Choose Language: " + getCookie("lang"));
  	});    
+    
+    $( "#chinese" ).mouseover(function() {
+        $("#lang-text").text("Chinese");
+    });      
     
     $('#lang').click(function(){
         document.cookie = "lang=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
