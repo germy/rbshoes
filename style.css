@@ -17,16 +17,26 @@ body{
 }
 
 #carousel-home{
-    max-width:600px;  
+    max-width:1000px;  
 }
 
 .navbar{
     margin:30px 0px 0px 0px;
-
 }
 
-.cart, .lang{
+.cart-logo, .lang{
     margin: 9px 20px 0px 10px;
+}
+.product-img{
+    max-height:100px;
+    max-width:100%;
+}
+
+#mission{
+	font-style: italic;
+	text-align: center;
+	font-size: 1.15em;
+	color: #2f2f2f;
 }
 
 #main{
@@ -35,7 +45,7 @@ body{
     -webkit-box-shadow: 7px 7px 11px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 7px 7px 11px -1px rgba(0,0,0,0.75);
     box-shadow: 7px 7px 11px -1px rgba(0,0,0,0.75);
-    background-color: rgba(255,255,255, 0.65);
+    background-color: rgba(255,255,255, 0.70);
 }
 
 #splash{
@@ -45,5 +55,25 @@ body{
 }
 
 #main .box{
+    margin:20px 0px 0px 0px;
+}
+
+#cart-overlay{
+    max-width:800px;
+}
+
+#map{
+    display:none;
+}
+
+.checkout-promo{
+    margin:20px 0px 0px 0px;
+}
+
+.filter{
+    background-color:#fff;
+}
+
+.filter-button{
     margin:20px 0px 0px 0px;
 }
