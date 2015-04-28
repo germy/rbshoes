@@ -19,7 +19,7 @@
  	}
 
  	$('#english').click(function(){
-        document.cookie="lang=english; expires=Thu, 18 Dec 3000 12:00:00 UTC";        
+        document.cookie="lang=English; expires=Thu, 18 Dec 3000 12:00:00 UTC";        
  		$('#splash').hide();
  		$('#main').show();
         $("#lang").text("Choose Language: " + getCookie("lang"));
@@ -32,7 +32,7 @@
  	$('#spanish').click(function(){
  		$('#splash').hide();
  		$('#main').show();
-        document.cookie="lang=spanish; expires=Thu, 18 Dec 3000 12:00:00 UTC";
+        document.cookie="lang=Spanish; expires=Thu, 18 Dec 3000 12:00:00 UTC";
         $("#lang").text("Choose Language: " + getCookie("lang"));
  	});
     
@@ -43,7 +43,7 @@
     $('#french').click(function(){
  		$('#splash').hide();
  		$('#main').show();
-        document.cookie="lang=french; expires=Thu, 18 Dec 3000 12:00:00 UTC";
+        document.cookie="lang=French; expires=Thu, 18 Dec 3000 12:00:00 UTC";
         $("#lang").text("Choose Language: " + getCookie("lang"));
  	});
     
@@ -54,7 +54,7 @@
     $('#chinese').click(function(){
  		$('#splash').hide();
  		$('#main').show();
-        document.cookie="lang=chinese; expires=Thu, 18 Dec 3000 12:00:00 UTC";
+        document.cookie="lang=Chinese; expires=Thu, 18 Dec 3000 12:00:00 UTC";
         $("#lang").text("Choose Language: " + getCookie("lang"));
  	});    
     
